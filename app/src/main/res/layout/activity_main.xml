@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:backgroundTint="#A13E3E"
+        android:id="@+id/view"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/TItulo"
+            android:textColor="#F306CB"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/perfumes" />
+
+        <Button
+
+            android:id="@+id/buttonCadastrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/Cadastrar"
+            android:textColor="#E91E63"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/buttonAtualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/Atualizar"
+            android:textColor="#E91E63"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/buttonDeletar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/DeletarCadastro"
+            android:textColor="#E91E63"
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/buttonVisualizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/aclonica"
+            android:text="@string/VisualizarCadastro"
+            android:textColor="#E91E63"
+            android:textSize="24dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/lucila" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lucila Perfumaria</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="Atualizar">Atualizar</string>
+    <string name="DeletarCadastro">Deletar</string>
+    <string name="VisualizarCadastro">Cadastrados</string>
+    <string name="TItulo">Lucila Perfumaria</string>
+    <string name="TeladeCadastro">Tela de Cadastro</string>
+    <string name="Nome">Nome cliente:</string>
+    <string name="Contato">Contato:</string>
+    <string name="Produto">Produto/Descrição:</string>
+    <string name="Compra">Total da Compra:</string>
+    <string name="TotalPago">Total já pago:</string>
+    <string name="PessoaId">Id:</string>
+    <string name="Anterior">Anterior</string>
+    <string name="Proximo">Proximo</string>
+    <string name="ClientesCad">Clientes Cadastrados</string>
+    <string name="faltaPagar">falta pagar:</string>
+    <string name="reais"> R$</string>
+    <string name="compraErro">o valor pago foi maior que o da comprar!</string>
+    <string name="pegarId">Digite o id desejado:</string>
+    <string name="Telaedição">Editar Cadastro</string>
+    <string name="Cancelar">Cancelar</string>
+    <string name="ExcluirContato">"Excluir Contato "</string>
+
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        tools:context=".Views.Deletar">
+
+        <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="130dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/ExcluirContato"
+                android:textColor="#F306CB"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/editTextId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="150dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:hint="@string/PessoaId"
+                android:inputType="number"
+                android:textSize="24sp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1"
+        android:backgroundTint="#F306CB"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/DeletarCadastro" />
+
+    <Button
+        android:id="@+id/buttonCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:backgroundTint="#F306CB"
+        android:fontFamily="@font/aclonica"
+        android:text="@string/Cancelar" />
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
+</layout>

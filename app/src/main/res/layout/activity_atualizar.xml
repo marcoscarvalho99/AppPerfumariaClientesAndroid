@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Views.Atualizar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="130dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/aclonica"
+                android:text="@string/Telaedição"
+                android:textColor="#F306CB"
+                android:textSize="36sp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="@string/pegarId"
+        android:inputType="number"
+        android:textSize="24dp" />
+
+    <Button
+        android:id="@+id/buttonBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#F306CB"
+        android:fontFamily="@font/aclonica"
+        android:text="Buscar" />
+</LinearLayout>
+            <EditText
+                android:id="@+id/editTextNome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/Nome"
+                android:inputType="textPersonName"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/editTextContato"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/Contato"
+                android:inputType="number"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/editTextProduto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/Produto"
+                android:inputType="textPersonName"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/editTextTotalCompra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/Compra"
+                android:inputType="numberDecimal"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/editTextTotalPago"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="70dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:fontFamily="@font/aclonica"
+                android:hint="@string/TotalPago"
+                android:inputType="numberDecimal"
+                android:textSize="24dp" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/buttonCadastrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F306CB"
+                    android:fontFamily="@font/aclonica"
+                    android:text="@string/Atualizar" />
+
+                <Button
+                    android:id="@+id/buttonCancelar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="#F306CB"
+                    android:fontFamily="@font/aclonica"
+                    android:text="Cancelar" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>
